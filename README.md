@@ -9,7 +9,7 @@ We will compare this two trees based on different operations:<br>
     2.Searching.<br>
     3.Deletion.<br><br>
     <u> <b>Insertion <b></u>
-    <p>Consider three different cases while inserting elements into the tree<br>1.Elements inserted in ascending order.<br><img src="ascending insertion.png">
+    <p>Consider three different cases while inserting elements into the tree<br>1.Elements inserted in ascending order.<br><img src="images/ascending insertion.png">
     2.Elements inserted in descending order.<br>
     <img src="descending insertion.png">3.Elements inserted in random order.<br><img src="random insertion.png">
     </p></body>
