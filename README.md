@@ -1,14 +1,8 @@
 Project Title : Splay Tree and comparision wrt Red-Black Tree
-Team members  : K.Yaswanth
+Team members  : K.Yaswanth<br>
                 SVL.Sarath
 
-    Title of project
-    Technologies to be used
-    Deliverables
-    Project delivery plan
-    End User Documentation
-    Online resources
-    Plan for testing
+   
     
 
 Technologies to be used
