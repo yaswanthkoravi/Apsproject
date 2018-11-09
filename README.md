@@ -6,12 +6,10 @@ We will compare this two trees based on different operations:<br>
     1.Insertion.<br>
     2.Searching.<br>
     3.Deletion.<br><br>
-    - <b>Insertion <b>
-    <p>Consider three different cases while inserting elements into the tree<br>1.Elements inserted in ascending order.<br><img src="images/ascending insertion.png">
-    2.Elements inserted in descending order.<br>
-    <img src="images/descending insertion.png">3.Elements inserted in random order.<br><img src="images/random insertion.png">
+    <b>Insertion </b>
+    <p>Consider three different cases while inserting elements into the tree<br>1.Elements inserted in ascending order.<br><img src="images/ascending insertion.png">2.Elements inserted in descending order.<br><img src="images/descending insertion.png">3.Elements inserted in random order.<br><img src="images/random insertion.png">
     </p></body>
-    <body><u><b>Observation for inserting elements<b></u><p><b>Case 1&2:</b>Skew trees will be formed in splay tree because of performing splaying operation after each insertion of element and bringing that to the root,whereas in red-black tree there will be multiple rotations inorder to maintain the property of red-black trees so inserting elements either in ascending order or in descending order will take more time in red-black tree when compared to splay tree<br>
+    <body><u><b>Observation for inserting elements</b></u><p><b>Case 1&2:</b>Skew trees will be formed in splay tree because of performing splaying operation after each insertion of element and bringing that to the root,whereas in red-black tree there will be multiple rotations inorder to maintain the property of red-black trees so inserting elements either in ascending order or in descending order will take more time in red-black tree when compared to splay tree<br>
 <b>Case 3:</b>While inserting elements in random order splay tree will take more time when compared to red-black tree because splay will bring the newly inserted element to the rooot after each insertion but red-black tree maintains its property while inserting elements into the tree by performing appropraite</p></body>
 <body><u><b>Search</b></u>
 <p>To find the performance of search operation in both trees we wil insert 100000 random elements in both the trees</p><u><b>Observation for searching elements<b></u><img src="images/searching repeatedly.png">
