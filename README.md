@@ -5,19 +5,19 @@
 <b>Technologies:</b><br>
 C++ (for building project) and python (for visualization).
  <b>Online resources:</b><br>
-1. https://en.wikipedia.org/wiki/Splay_tree
-2. https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
-3. http://www.cs.cmu.edu/~sleator/papers/self-adjusting.pdf
-<b>Repository where work is being committed:</b<br>
-https://github.com/yaswanthkoravi/Apsproject.git
+1. https://en.wikipedia.org/wiki/Splay_tree<br>
+2. https://en.wikipedia.org/wiki/Red%E2%80%93black_tree<br>
+3. http://www.cs.cmu.edu/~sleator/papers/self-adjusting.pdf<br>
+<b>Repository where work is being committed:</b><br>
+https://github.com/yaswanthkoravi/Apsproject.git<br>
 <body>
- <b>Splay tree</b>: A splay tree is an efficient implementation of a balanced binary search tree that takes advantage of locality in the keys used in incoming lookup requests. For many applications, there is excellent key locality. A good example is a network router. A network router receives network packets at a high rate from incoming connections and must quickly decide on which outgoing wire to send each packet, based on the IP address in the packet. The router needs a big table (a map) that can be used to look up an IP address and find out which outgoing connection to use. If an IP address has been used once, it is likely to be used again, perhaps many times. Splay trees can provide good performance in this situation.Importantly, splay trees offer amortized O(log n) performance; a sequence of M operations on an n-node splay tree takes O(M log n) time.A splay tree is a binary search tree. It has one interesting difference, however: whenever an element is looked up in the tree, the splay tree reorganizes to move that element to the root of the tree, without breaking the binary search tree invariant. If the next lookup request is for the same element, it can be returned immediately..<br><br>
+ <b>Splay tree</b>: A splay tree is an efficient implementation of a balanced binary search tree that takes advantage of locality in the keys used in incoming lookup requests. For many applications, there is excellent key locality. A good example is a network router. A network router receives network packets at a high rate from incoming connections and must quickly decide on which outgoing wire to send each packet, based on the IP address in the packet. The router needs a big table (a map) that can be used to look up an IP address and find out which outgoing connection to use. If an IP address has been used once, it is likely to be used again, perhaps many times. Splay trees can provide good performance in this situation.Importantly, splay trees offer amortized O(log n) performance; a sequence of M operations on an n-node splay tree takes O(M log n) time.A splay tree is a binary search tree. It has one interesting difference, however: whenever an element is looked up in the tree, the splay tree reorganizes to move that element to the root of the tree, without breaking the binary search tree invariant. If the next lookup request is for the same element, it can be returned immediately.<br><br>
 <b>Red Black Tree</b>: Red-Black trees are a popular tree structure for real time applications. A Red Black Tree is a type of self-balancing binary search tree, in which every node is colored with a red or black. The red black tree satisfies all the properties of the binary search tree but there are some additional properties which were added in a Red Black Tree. The height of a Red-Black tree is O(Logn) where (n is the number of nodes in the tree).
-Properties of Red Black Tree:
-  - The root node should always be black in color.
-  - Every null child of a node is black in red black tree.
-  - The children of a red node are black. It can be possible that parent of red node is black node.
-  - All the leaves have the same black depth.
+Properties of Red Black Tree:<br>
+  - The root node should always be black in color.<br>
+  - Every null child of a node is black in red black tree.<br>
+  - The children of a red node are black. It can be possible that parent of red node is black node.<br>
+  - All the leaves have the same black depth.<br>
   -- Every simple path from the root node to the (downward) leaf node contains the same number of black nodes.
 <br><br>
 We will compare this two trees based on different operations:<br>
