@@ -42,11 +42,11 @@ We will compare this two trees based on different operations:<br>
       <b>End User Documentation</b><br>
     <p> We have implemented menu driven program for both the codes.Run g++ -o splay splay.cpp and g++ -o redblack redblacktree.cpp command through terminal.A .out files will be generated for both the codes respectively. Execute this files using ./splay and ./redblack commands respectively .</p>
    The following menu will be displayed for red black tree<br>
-        1.Press 1 to insert: Enter the value to be inserted in the red black tree.<br>
+        <p>1.Press 1 to insert: Enter the value to be inserted in the red black tree.<br>
         2.Press 2 to delete: Enter value to be deleted from the tree, it will first search for that value and then delete that if       that value is found in the tree else it returns value not found message.<br>
         3.Press 3 to search: Enter value to be searched from the tree,it will follow the normal BST search algo.<br>
         4.Press 4 to display:Inorder travesel of nodes will be displayed along with the colors of the nodes<br>
-        5.Press 5 to exit: It will exit from the main program.<br>
+         5.Press 5 to exit: It will exit from the main program.<br></p>
  The following menu will be displayed for splay tree<br>
         1.Press 1 to insert: Enter the value to be inserted in the splay tree.<br>
         2.Press 2 to delete: Enter value to be deleted from the tree, it will first search for that value and move it to the root and then delete that if that value is found in the tree else it returns value not found message along with that last element where search ended will moved to the root.<br>
