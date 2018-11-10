@@ -1,0 +1,10 @@
+Run this files using command python3 filename.py from terminal
+
+insertion1.py-insertion numbers in ascending order in both trees for different frequencies and measuring time interval for each cases.
+insertion2.py-insertion numbers in descending order in both trees for different frequencies and measuring time interval for each cases.
+insertion3.py-insertion numbers in random order in both trees for different frequencies and measuring time interval for each cases.
+
+search1.py-searching for a constant element for different frequencies in both the trees and measuring time interval for each cases.
+search2.py-searching for a random elements for different frequencies in both the trees and measuring time interval for each cases.
+
+delete.py-deleting random elements from both the trees and measuring time interval for each cases.
