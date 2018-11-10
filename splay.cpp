@@ -222,12 +222,9 @@ int main()
 			int val;
 			cout<<"enter value to be inserted:";
 			cin>>val;
-			if(Find(val))
-				cout<<"value already present in the tree"<<endl;
-			else{
+			
 				Insert(val);
 			cout<<"value inserted into the tree"<<endl;
-		}
 		}
 		else if(choice==2)
 		{
