@@ -13,11 +13,29 @@ We will compare this two trees based on different operations:<br>
 <b>Case 3:</b>While inserting elements in random order splay tree will take more time when compared to red-black tree because splay will bring the newly inserted element to the rooot after each insertion but red-black tree maintains its property while inserting elements into the tree by performing appropraite</p></body>
 <body><u><b>Search</b></u>
 <p>To find the performance of search operation in both trees we wil insert 100000 random elements in both the trees</p><u><b>Observation for searching elements</b></u><img src="images/searching repeatedly.png">
-<p><b>Case 1:</b> We are performing search operation of constant element for multiple times say(1,100,1000,10000) due to splaying property of splay tree there will be huge time gap between this two trees,in splay tree after first search operation it will brimg that constant searched element into the root and for next search operations it will take constant time to access that element whereas in red-black trees it takes the same amount of time for every of search operation of that constant element<br><img src="images/random search.png"><br>
+<p><b>Case 1:</b> We are performing search operation of constant element for multiple times say(1,100,1000,10000) due to splaying property of splay tree there will be huge time gap between this two trees,in splay tree after first search operation it will brimg that constant searched element into the root and for next search operations it will take constant time to access that element whereas in red-black trees it takes the same amount of time for every of search operation of that constant element<br><img src="images/random search.png">
 <b>Case 2:</b>we are searching random elements multiple times say(1,100,1000,10000), in this case red-black trees performs better than splay trees because after every search opeation the splay structure will be changed whereas the structure of red-black tree remains constant</p>
 <body>
 <u><b>Delete</b></u><br><b>Observation for deleting elements</b><img src="images/random delete.png">
     <p>      Here we are deleting a random number for multiple times say(100,1000,5000,10000).Splay tree will take more time when compared to red-black tree because while deleting element we will first search that element and bring that element to the root and delete that element and make inorder succesor as the root whereas in red-black tree we will search that element and delete it and we will perform approprate rotations to make the properties of the red black tree</p></body>
     <body><u><b>Conclusion<b></u>
    <p>1.If our application has more number of insert operation than search operation prefer <b>red-black tree.</b><br>
-   2.If our application has repeated number of search operation for the same element prefer <b>splay tree</b>(cache implementation).</p></body>
+   2.If our application has repeated number of search operation for the same element prefer <b>splay tree</b>(cache implementation).</p><br>
+     <h2> <b>End User Documentation</b></h2><br>
+     <p>We have implemented menu driven program for both the codes
+<ol>Run g++ -o splay splay.cpp and g++ -o redblack redblacktree.cpp command through terminal.
+    A .out files will be generated. Execute this files using ./splay and ./redblack commands respectively .
+   - The following menu will be displayed for red black tree
+        - Press 1 to insert: Enter the value to be inserted in the red black tree.
+        - Press 2 to delete: Enter value to be deleted from the tree, it will first search for that value and then delete that if that value is found in the tree else it returns value not found message.
+        - Press 3 to search: Enter value to be searched from the tree,it will follow the normal BST search algo.
+        - Press 4 to display:Inorder travesel of nodes will be displayed along with the colors of the nodes
+        - Press 5 to exit: It will exit from the main program.
+ The following menu will be displayed for splay tree
+        - Press 1 to insert: Enter the value to be inserted in the splay tree.
+        - Press 2 to delete: Enter value to be deleted from the tree, it will first search for that value and move it to the root and then delete that if that value is found in the tree else it returns value not found message along with that last element where search ended will moved to the root.
+        - Press 3 to search: Enter value to be searched from the tree,it will follow the normal BST search algo and moves that particular element to the root.
+        - Press 4 to display:Inorder travesel of nodes will be displayed.
+        - Press 5 to exit: It will exit from the main program.
+     
+
