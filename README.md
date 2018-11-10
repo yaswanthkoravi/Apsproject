@@ -18,11 +18,11 @@ We will compare this two trees based on different operations:<br>
 <body>
 <u><b>Delete</b></u><br><b>Observation for deleting elements</b><img src="images/random delete.png">
     <p>      Here we are deleting a random number for multiple times say(100,1000,5000,10000).Splay tree will take more time when compared to red-black tree because while deleting element we will first search that element and bring that element to the root and delete that element and make inorder succesor as the root whereas in red-black tree we will search that element and delete it and we will perform approprate rotations to make the properties of the red black tree</p></body>
-    <body><u><b>Conclusion<b></u>
+    <body><u><b>Conclusion</b></u>
    <p>1.If our application has more number of insert operation than search operation prefer <b>red-black tree.</b><br>
    2.If our application has repeated number of search operation for the same element prefer <b>splay tree</b>(cache implementation).</p><br>
      <h2> <b>End User Documentation</b></h2><br>
-    <p> We have implemented menu driven program for both the codes.Run g++ -o splay splay.cpp and g++ -o redblack redblacktree.cpp command through terminal.A .out files will be generated. Execute this files using ./splay and ./redblack commands respectively .</p><br>
+    <p> We have implemented menu driven program for both the codes.Run g++ -o splay splay.cpp and g++ -o redblack redblacktree.cpp command through terminal.A .out files will be generated for both the codes respectively. Execute this files using ./splay and ./redblack commands respectively .</p><br>
    - The following menu will be displayed for red black tree
         - Press 1 to insert: Enter the value to be inserted in the red black tree.
         - Press 2 to delete: Enter value to be deleted from the tree, it will first search for that value and then delete that if       that value is found in the tree else it returns value not found message.
