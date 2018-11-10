@@ -3,7 +3,7 @@
 1.K yaswanth(2018202011)<br>
 2.SVL sarath(2018202013)<br>
 <b>Technologies:</b><br>
-C++ (for building project) and python (for visualization).
+C++ (for building project) and python (for visualization).<br>
  <b>Online resources:</b><br>
 1. https://en.wikipedia.org/wiki/Splay_tree<br>
 2. https://en.wikipedia.org/wiki/Red%E2%80%93black_tree<br>
