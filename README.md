@@ -1,4 +1,9 @@
 <h1><center>SPLAY TREE VS RED BLACK TREE</center></h1>
+<b>Team Members</b><br>
+1.K yaswanth(2018202011)<br>
+2.SVL sarath(2018202013)<br>
+<b>Github Link</b><br>
+https://github.com/yaswanthkoravi/Apsproject<br>
 <body>
  <b>Splay tree</b>: In splay trees accessing a node moves it to the top, no other balance conditions are guaranteed. Whereas the balance of a BST is dependent upon the only the order in which nodes were inserted into the tree, splay tree balance is dependent upon the order in which they were accessed.The worst case scenario for balance is when nodes are accessed in ascending or descending order. Random access is generally OK on average,although this doesn’t necessarily yield the multi access advantage. It is most efficient, nearly constant time, to access a recently accessed node. An example use case is a cache (files may be accessed multiple times).<br><br>
 <b>Red Black Tree</b>: Red-Black trees are a popular tree structure for real time applications. They are used in the Linux Kernel, as well as the C++ STL (map).Red-black trees are height balanced. Since find operations are bound by height for worst case analysis,and since find operations are inherent in many other operations (such as insertand delete), maintaining height balance for a tree increases efficiency.  The findalgorithm loses efficiency when compared to AVL trees which maintain both heightand weight balance.  However, maintaining balance in a red-black tree is moreefficient than an AVL tree, making it a better choice for some real-time applications.<br><br>
@@ -21,8 +26,8 @@ We will compare this two trees based on different operations:<br>
     <body><u><b>Conclusion</b></u>
    <p>1.If our application has more number of insert operation than search operation prefer <b>red-black tree.</b><br>
    2.If our application has repeated number of search operation for the same element prefer <b>splay tree</b>(cache implementation).</p><br>
-     <h2> <b>End User Documentation</b></h2><br>
-    <p> We have implemented menu driven program for both the codes.Run g++ -o splay splay.cpp and g++ -o redblack redblacktree.cpp command through terminal.A .out files will be generated for both the codes respectively. Execute this files using ./splay and ./redblack commands respectively .</p><br>
+      <b>End User Documentation</b><br>
+    <p> We have implemented menu driven program for both the codes.Run g++ -o splay splay.cpp and g++ -o redblack redblacktree.cpp command through terminal.A .out files will be generated for both the codes respectively. Execute this files using ./splay and ./redblack commands respectively .</p>
    - The following menu will be displayed for red black tree
         - Press 1 to insert: Enter the value to be inserted in the red black tree.
         - Press 2 to delete: Enter value to be deleted from the tree, it will first search for that value and then delete that if       that value is found in the tree else it returns value not found message.
