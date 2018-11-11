@@ -20,7 +20,7 @@ element it can be returned immediately..<br><br>
 Red Black Tree is a type of self-balancing binary search tree, in which every
 node is colored with eithe red or black. The red black tree satisfies all theproperties of the binary search tree but there are some additional properties
 which were added in a Red Black Tree. The height of a Red-Black tree is
-O(Logn) where (n is the number of nodes in the tree).
+O(Logn) where (n is the number of nodes in the tree).<br>
  <b>Properties of Red Black Tree:</b><br>
 • The root node should always be black in color.<br>
 • Every null child of a node is black in red black tree.<br>
